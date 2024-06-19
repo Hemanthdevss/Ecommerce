@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Logo styles */
+.container img:first-of-type {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Login form styles */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input group styles */
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Label styles */
+label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Input field styles */
+.input-field {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.buttonStyle {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
